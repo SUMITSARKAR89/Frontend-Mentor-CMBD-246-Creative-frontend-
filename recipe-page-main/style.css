@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: 30px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    transition: all ease 0.2s;
+}
+
+:root{
+    ---Nutmeg: hsl(14, 45%, 36%);
+    ---Dark-Raspberry: hsl(332, 51%, 32%);
+    ---White: hsl(0, 0%, 100%);
+    ---Rose-White: hsl(330, 100%, 98%);
+    ---Eggshell: hsl(30, 54%, 90%);
+    ---Light-Grey: hsl(30, 18%, 87%);
+    ---Wenge-Brown: hsl(30, 10%, 34%);
+    ---Dark-Charcoal: hsl(24, 5%, 18%);
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+html{
+    width: 100%;
+    height: auto;
+
+}
+body{
+    /* font-family: "Outfit", sans-serif; */
+    font-family: "Young Serif", serif;
+    background-color: var(---White);
+    max-width: 100%;
+    height: auto;
+
+}
+section{
+    padding: 0% 8%;
+}
+/* custom css start here  */
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+header{
+    padding: 4% 8%;
+    
+}
+header img{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 60px;
+}
+.header-content{
+    
+}
+.header-content h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 85px;
+    margin-bottom: 30px;
+}
+h2{
+    color: var(---Nutmeg);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 85px;
+    margin-top: 3%;
+}
+.header-content p{
+    color: var(---Wenge-Brown);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 80px;
+    font-family: "Outfit", sans-serif;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+.content > h3{
+    color: var(---Dark-Raspberry);
+    font-family: "Outfit", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+ul{
+    padding: 0 0 0 30px;
+    color: var(---Dark-Raspberry);
+
+}
+ul li{
+    padding: 0 15px;   
+}
+.list-type > p{
+    text-transform: capitalize;
+    font-size:20px ;
+    font-weight: 600;
+    color: var(---Dark-Charcoal);
+    margin-bottom: 10px;
+}
+span{
+    padding: 0 5px;
+    font-weight: 500;
+    font-size:18px ;
+    color: var(---Wenge-Brown);
+    
+}
+.content2 ul{
+    color: var(---Nutmeg);
+}
+.content2 ul li > p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(---Wenge-Brown);
+}
+.hr{
+    border: 1px solid var(---Eggshell);
+    margin: 35px 0;
+}
+.Instructions ol{
+    padding: 0 0 0 30px;
+    color: var(---Dark-Raspberry);
+
+}
+
+ol li{
+    padding: 0 25px; 
+    color:var(---Nutmeg); 
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+
+}
+ol li > p{
+    color: var(---Wenge-Brown);
+    margin-bottom: 10px;
+    line-height: 30px;
+    
+}
+
+span{
+    padding: 0 5px;
+    font-weight: 400;
+    font-size:18px ;
+    color: var(---Wenge-Brown);
+    
+}
+.Nutrition > p{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(---Wenge-Brown);
+    margin-bottom: 25px;
+}
+table{
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    text-align: left;
+    padding: 0 30px;
+    
+}
+th, td{
+    padding: 15px 0;
+    color: var(---Wenge-Brown);
+    border-bottom: 1px solid var(---Eggshell);
+}
+td:nth-child(2){
+    color:var(---Nutmeg);
+    font-weight: 600;
+}
+
+/* respomsive start here */
+@media(max-width:780px){
+
+    .header-content h1{
+        font-size: 3rem;
+        line-height: 50px;
+       
+    }
+    header{
+        padding: 0;
+    }
+    .header-content{
+        padding: 0% 4%;
+    }
+    section{
+        padding: 0% 4%;
+    }
+
+}

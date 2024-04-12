@@ -1,0 +1,129 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    
+    
+    
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+    text-align: center; 
+}
+
+
+:root{
+--Brightorange: hsl(31, 77%, 52%);
+--Darkcyan: hsl(184, 100%, 22%);
+--Verydarkcyan: hsl(179, 100%, 13%);
+--Transparentwhite: hsla(0, 0%, 100%, 0.75);
+--Verylightgray: hsl(0, 0%, 95%);
+}
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    max-width: 100%;
+    height: auto;
+    margin: 10% auto;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+     
+
+}
+.container{
+    max-width: 900px;
+    padding: 20px 0;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem;
+   
+}
+.card{
+    display: flex;
+    background-color: var(--Verylightgray);
+    overflow: hidden;
+    border-radius: 10px;
+    height: 480px;
+}
+.box{
+    padding: 2.5rem 3rem ;
+
+}
+.box img{
+    margin-bottom: 25px;
+}
+.box h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+     color: var(--Verylightgray);
+}
+.box p{
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--Transparentwhite);
+    margin-bottom: 45px;
+    line-height: 25px;
+    padding: 25px 0;
+}
+.box a{
+    text-decoration: none;
+    font-weight: 500;
+
+}
+.box .btn{
+    border: 2px solid var(--Verylightgray);
+    padding: 10px 20px;
+    
+    
+    border-radius: 30px;
+    margin-bottom: 30px;
+    background-color: var(--Verylightgray);
+    position: relative;
+    top:20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.box .btn:hover{
+    background-color: transparent;
+    color: var(--Verylightgray);
+}
+.sedans{
+    background-color: var(--Brightorange);
+}
+.sedans a{
+    color: var(--Brightorange);
+}
+.suvs{
+    background-color: var(--Darkcyan);
+}
+.suvs a{
+    color: var(--Verydarkcyan);
+}
+.luxury{
+    background-color: var(--Verydarkcyan);
+}
+.luxury a{
+    color: var(--Darkcyan);
+}
+@media  only screen and (max-width:600px) {
+    .card{
+        display: block;
+        height: 100%;
+    }
+    .box .btn{
+        top: 0;
+    }
+    
+}
