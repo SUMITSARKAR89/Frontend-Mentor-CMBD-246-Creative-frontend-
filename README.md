@@ -60,6 +60,9 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
 " width="200" height="130">
 <img src="./img folder/stats-preview-card-component-main.png" alt="stats-preview-card-component-main
 " width="200" height="130">
+<img src="./img folder/chat-app-css-illustration-master.jpg" alt="chat-app-css-illustration-master
+" width="200" height="130">
+
 
 
 </div>
