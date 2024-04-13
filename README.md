@@ -67,6 +67,20 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
 " width="200" height="130">
 <img src="./img folder/clipboard-landing-page-master.jpg" alt="clipboard-landing-page-master
 " width="200" height="130">
+<img src="./img folder/fylo-data-storage-component-master.jpg" alt="fylo-data-storage-component-master
+" width="200" height="130">
+<img src="./img folder/fylo-data-storage-component-master.jpg" alt="fylo-data-storage-component-master
+" width="200" height="130">
+<img src="./img folder/fylo-landing-page-with-two-column-layout-master.jpg" alt="fylo-landing-page-with-two-column-layout-master
+" width="200" height="130">
+<img src="./img folder/huddle-landing-page-with-alternating-feature-blocks-master.jpg" alt="huddle-landing-page-with-alternating-feature-blocks-master
+" width="200" height="130">
+<img src="./img folder/huddle-landing-page-with-curved-sections-master.jpg" alt="huddle-landing-page-with-curved-sections-master
+" width="200" height="130">
+<img src="./img folder/huddle-landing-page-with-single-introductory-section-master.jpg" alt="huddle-landing-page-with-single-introductory-section-master
+" width="200" height="130">
+<img src="./img folder/nft-preview-card-component-main.jpg" alt="nft-preview-card-component-main" width="200" height="130">
+
 
 
 
