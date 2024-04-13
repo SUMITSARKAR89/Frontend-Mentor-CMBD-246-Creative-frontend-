@@ -17,6 +17,9 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
      3. psuedo Elements and Classes
      4. Grid display
      5. Hover over
+     6. z-index
+     7. position
+        
      
 <br/>
 
@@ -61,6 +64,8 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
 <img src="./img folder/stats-preview-card-component-main.png" alt="stats-preview-card-component-main
 " width="200" height="130">
 <img src="./img folder/chat-app-css-illustration-master.jpg" alt="chat-app-css-illustration-master
+" width="200" height="130">
+<img src="./img folder/clipboard-landing-page-master.jpg" alt="clipboard-landing-page-master
 " width="200" height="130">
 
 
