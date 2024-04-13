@@ -1,17 +1,17 @@
 <!-- ---markdown--  -->
 # frontend-mentor-CMBD246
-### __Assignment name:__   Solve any 5 challenges from Frontend Mentor
+### __Assignment name:__   Solve any 25 challenges from Frontend Mentor
 #### Created by: `Sumit sarkar`
 
 ### __Introduction__:
-Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendmentor] website. In this demo project you can find some solution about some easy and effective challanges. For this demo project i usually used only `html` and `css` file. Hopefully you guys enjoy it.
+Hello everyone. I am just trying to solve some CHALLENGES of  [frontendmentor] website. In this demo project you can find some solution about some easy and effective challanges. For this demo project i usually used only `html` and `css` file. Hopefully you guys enjoy it.
 
 <!-- ---link--- -->
 [frontendmentor]:https://www.frontendmentor.io/home
 
 ### What I used:
 - [X] __HTML__
-- [X] __CSS__   
+- [X] __CSS3__   
      1. Flex display
      2. responsive design
      3. psuedo Elements and Classes
@@ -92,7 +92,7 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
 
 </div>
 
-### Some basix Css customized:
+### Some basic CSS customized:
 
  ```css
  :root{
