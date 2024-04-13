@@ -1,0 +1,209 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,500&family=Raleway:wght@400;700&family=Roboto:wght@100&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+
+}
+:root{
+    -Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+
+
+
+--PaleBlue: hsl(243, 100%, 93%);
+--GrayishBlue: hsl(229, 7%, 55%);
+--DarkBlue: hsl(228, 56%, 26%);
+--VeryDarkBlue: hsl(229, 57%, 11%);
+}
+*, *::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+   background-color: var(--VeryDarkBlue);
+   background-image: url(images/bg-desktop.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   
+   max-width: 1200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 150vh;
+}
+.container{
+    max-width: 100%;
+    margin-bottom: 200px;
+    margin-top: -200px;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 5px;
+    
+    
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-size: cover;
+        margin: 0 auto;
+        height: 200vh;
+        
+    }
+    .container{
+        display: block;  
+        
+    }
+    .right-content{
+        
+    text-align: center;
+    max-width: 100%;
+    min-height: 200px;
+    }
+    
+    .card{
+        display: none;
+    }
+    }
+   
+    
+
+.left-content{
+    margin:10px 30px ;
+    background-color: var(--DarkBlue);
+    padding: 35px 35px;
+    padding-right: 130px;
+    border-radius: 8px;
+    border-top-right-radius: 43%;
+    transition: 0.5s;
+}
+.left-content:hover,
+.right-content:hover{
+    box-shadow: 0px 2px 20px -10px var(--GrayishBlue);
+}
+.left-content .logo img{
+    width: 180px;
+    padding: 10px 18px;
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    
+    
+}
+.icon img{
+    height: 25px;
+    width: 25px;
+    
+    
+}
+.doc, .file, .upload{
+    background-color: var(--VeryDarkBlue);
+    padding: 10px 12px ;
+    margin: 7px;
+    transition: 0.5s;
+    margin-top: 15px ; 
+    border-radius: 10px;
+}
+.doc:hover,
+.file:hover, 
+.upload:hover{
+    background-color: rgba(233, 217, 217, 0.137);
+}
+.right-content{
+    margin-right: -280px;
+    margin-top: 65px;
+    background-color: var(--DarkBlue);
+    padding: 35px 35px;
+    width: 700px;
+    height: 170px;
+    border-radius: 8px;
+    transition: 0.5s;
+    
+
+}
+.right-content p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.right-content span{
+    font-weight: 600;
+    font-size: 15px;
+}
+.right-content .bar{
+    background-color: var(--VeryDarkBlue);
+    height: 15px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+ .bar .insider{
+    width: 80%;
+    height: 15px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+.bar .insider .whiteball{
+    width: 16px;
+    height: 16px;
+    top: -18px;
+    left: 97%;
+    
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+
+}
+.right-content .text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    
+}
+.right-content .text p{
+    font-weight: 400;
+    font-size: 14px;
+}
+.card{
+    background-color: var(--PaleBlue);
+    width: 140px;
+    height: 60px;
+    border-radius: 10px;
+    position: relative;
+    top: -120px;
+    text-align: center;
+    right: -500px;
+    padding: 10px 0 ;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.card:before{
+    border-bottom: 10px solid transparent;
+    border-left:  10px solid transparent;
+    border-right: 10px solid var(--PaleBlue);
+    border-top: 10px solid var(--PaleBlue);
+    content: '';
+    position: relative;
+    left: 113px;
+    top: 25px;
+}
+
+
+span.cs{
+    font-size: 25px;
+}
+
+

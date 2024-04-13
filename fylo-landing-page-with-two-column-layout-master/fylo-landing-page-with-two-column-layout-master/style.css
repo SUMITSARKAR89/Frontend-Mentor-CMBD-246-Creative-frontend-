@@ -1,0 +1,361 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Open+Sans:wght@400;700&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,500&family=Raleway:wght@400;700&family=Roboto:wght@100&display=swap');
+
+.section-attribute{
+    margin-top: 2rem;
+}
+.attribution {
+     font-size: 15px; 
+     text-align: center;
+     font-weight: bold; 
+    }
+.attribution a { 
+    color: hsl(91, 45%, 44%);
+   
+}
+:root{
+--VeryDarkBlue: hsl(243, 87%, 12%);
+--DesaturatedBlue: hsl(238, 22%, 44%);
+--BrightBlue: hsl(224, 93%, 58%);
+--ModerateCyan: hsl(170, 45%, 43%);
+--LightGrayishBlue: hsl(240, 75%, 98%);
+--LightGray: hsl(0, 0%, 75%);
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: var(--VeryDarkBlue);
+    font-family: 'Raleway', sans-serif;
+}
+html{
+    height: 100%;
+}
+body{
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    height: 100%;
+    max-width:1400px;
+    background-color:var(--LightGrayishBlue);
+    margin: 0 auto;
+    
+    
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--LightGrayishBlue);
+    
+}
+
+
+
+button{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--BrightBlue);
+    color: var(--LightGrayishBlue);
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+button:hover{
+    background-color:hsla(224, 93%, 58%, 0.7) ;
+}
+.image{
+    max-width: 600px;
+    
+}
+header{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+   margin-left: 40px;
+}
+.nav{
+    margin: 0 1rem;
+}
+.nav li{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+.nav a{
+    color:var(--VeryDarkBlue) ;
+}
+
+/* ------------------------ 
+ section one part 
+--------------------------*/
+#section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+.sec1-left, 
+.sec2-left,
+.sec3-left{
+    margin: 25px 30px;
+    margin-top: 5rem;
+    width: 50%;
+    
+}
+.sec1-left .left-headline{
+    margin: 30px 0;
+}
+.left-headline h1{
+    font-size: 42px;
+    margin-bottom: 28px;
+    
+}
+.left-headline p{
+    
+    font-size: 19px;
+    color: var(--VeryDarkBlue); 
+    font-weight: 500; 
+}
+.sec1-left .form{
+    margin-top: 10px;
+    
+}
+.sec1-left input{
+    width: 350px;
+    height: 40px;
+    border: 1px solid var(--LightGray);
+    border-radius: 5px;
+    
+    
+}
+.sec1-left input[type="email"]{
+    padding: 20px;
+    font-size: 16px;
+}
+ 
+.sec1-right, 
+.sec2-right{
+    
+    width: 50%;
+    padding-left: -20px;
+    
+}
+/* ------------------------ 
+ section two part 
+--------------------------*/
+#section2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+   
+}
+.sec2-left h1{
+    font-size: 38px;
+}
+.sec2-left p{
+    margin-bottom: 10px;
+    color: var(--VeryDarkBlue);
+}
+.sec2-left .inside-card{
+    margin-top: 3rem;
+    width: 370px;
+    padding: 15px 30px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.13);
+    
+
+}
+.inside-card .text p{
+    font-size: 15px;
+    line-height: 30px;
+
+}
+.inside-card .mark{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.mark .img-icon img{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.mark .desc h4{
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 1px;
+    
+}
+.mark .desc p{
+    font-size: 11px;
+}
+.mark p{
+    font-size: 12px;
+    margin: 3px 0;
+    font-weight: 500;
+}
+.left-headline div{
+    margin-top: 1.4rem;
+    
+}
+.left-headline a{
+    color: var(--ModerateCyan); 
+    border-bottom: 1px solid var(--ModerateCyan);
+    padding: 5px 0;
+    
+    
+}
+.left-headline img{
+    width: 15px;
+    margin-bottom: -2px;
+}
+/* ------------------------ 
+ section three part 
+--------------------------*/
+#section3{
+    background-color: var(--DesaturatedBlue);
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    color: var(--LightGrayishBlue);
+    margin: 0 auto;
+
+}
+.sec3-left{
+    width: 50%;
+    background-color:transparent;
+}
+.sec3-left h1{
+    color: var(--LightGrayishBlue);
+    margin: 0 2rem;
+    font-size: 30px;
+    margin-bottom: 2rem;
+
+}
+.sec3-left p{
+    margin: 0 2rem;
+    margin-bottom: 2rem;
+    padding: 0 30px 0 0;
+    
+}
+.sec3-right{
+    width: 50%;
+    padding: 2rem 1.5rem;
+
+}
+.sec3-right form{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding: 10px 30px;
+}
+.sec3-right input{
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--LightGray);
+}
+.sec3-right input::placeholder{
+    padding: 0 20px;
+    color: var(--LightGray);
+    opacity: 0.6;
+}
+.sec3-right label{
+
+    color: var(--LightGray);
+    padding: 5px 0;
+}
+.sec3-right button{
+    margin:0  30px;
+    font-weight: 600;
+   
+}
+
+.sec3-right button:hover{
+    background-color: hsla(224, 90%, 73%, 0.945);
+}
+/* ------------------------ 
+ section footer part 
+--------------------------*/
+footer{
+    background-color: var(--VeryDarkBlue);
+    margin: 0 auto;
+    padding: 30px 45px;
+    width: 100%;
+    height: 60vh;
+    color: var(--LightGrayishBlue);
+}
+footer li a{
+    color: var(--LightGrayishBlue);
+    transition: 0.5s;
+}
+footer li a:hover{
+    color: var(--LightGray);
+}
+.bottom-logo{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card1 li{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    
+}
+.card2 li, 
+.card3 li{
+    margin: 10px 0;
+}
+.social{
+    margin-right: 100px;
+    padding: 10px 35px;
+    margin-bottom: 2rem;
+}
+.social a{
+    margin: 10px;
+    
+}
+.social img{
+    height:30px ;
+    width: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    transition: 0.5s;
+    
+}
+.social img:hover{
+    border:2px solid var(--LightGray) ;
+    
+}
