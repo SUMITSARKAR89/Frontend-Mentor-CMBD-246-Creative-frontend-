@@ -26,6 +26,7 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
 3. blog-preview-card-main
 4. 3-column-preview-card-component-main
 5. four-card-feature-section-master
+6. testimonials-grid-section-main
 
 <br/>
 
@@ -39,6 +40,9 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
 <img src="./img folder/image4.png" alt="3-column-preview-card-component-main" width="200" height="130">
 <img src="./img folder/image 5.png" alt="four-card-feature-section-master
 " width="200" height="130">
+<img src="./img folder/testimonials-grid-section-main.png" alt="testimonials-grid-section-main
+" width="200" height="130">
+
 
 </div>
 
