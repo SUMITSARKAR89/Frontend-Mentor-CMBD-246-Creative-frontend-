@@ -1,0 +1,64 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    ---Lightgray: hsl(212, 45%, 89%);
+    ---Grayishblue: hsl(220, 15%, 55%);
+    ---Darkblue: hsl(218, 44%, 22%);
+}
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%; 
+    justify-content: center;
+    background-color: var(---Lightgray);
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.card{
+    background-color: var(--White);
+    width: 275px;
+    padding: 15px;
+    border-radius: 15px;   
+
+}
+.card-desc{
+    
+    padding: 20px;
+}
+.card-desc h4{
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: var(---Darkblue);
+}
+.card-desc p{
+    color: var(---Grayishblue);
+    text-align: center;
+    font-size: 12px;
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    margin: 2rem 0;
+    
+}
+.attribution a{
+    color: rgb(73, 73, 216);
+}
