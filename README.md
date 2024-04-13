@@ -86,7 +86,7 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
 <img src="./img folder/profile-card-component-main.jpg" alt="profile-card-component-main" width="200" height="130">
 <img src="./img folder/qr-code-component-main.jpg" alt="qr-code-component-main" width="200" height="130">
 <img src="./img folder/single-price-grid-component-master.jpg" alt="single-price-grid-component-master" width="200" height="130">
-<img src="./img folder/social-proof-section-master.png" alt="social-proof-section-master" width="200" height="130">
+<img src="./img folder/social-proof-section-master.jpg" alt="social-proof-section-master" width="200" height="130">
 
 
 
