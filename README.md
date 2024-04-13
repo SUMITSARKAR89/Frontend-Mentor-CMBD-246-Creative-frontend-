@@ -27,6 +27,7 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
 4. 3-column-preview-card-component-main
 5. four-card-feature-section-master
 6. testimonials-grid-section-main
+7. stats-preview-card-component-main
 
 <br/>
 
