@@ -28,6 +28,21 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
 5. four-card-feature-section-master
 6. testimonials-grid-section-main
 7. stats-preview-card-component-main
+8. chat-app-css-illustration-master
+9. clipboard-landing-page-master
+10. four-card-feature-section-master
+11. fylo-data-storage-component-master
+12. fylo-landing-page-with-two-column-layout-master
+13. huddle-landing-page-with-alternating-feature-blocks-master
+14. huddle-landing-page-with-curved-sections-master
+15. huddle-landing-page-with-single-introductory-section-master
+16. nft-preview-card-component-main
+17. order-summary-component-main
+18. product-preview-card-component-main
+19. profile-card-component-main
+20. qr-code-component-main
+21. single-price-grid-component-master
+22. social-proof-section-master
 
 <br/>
 
