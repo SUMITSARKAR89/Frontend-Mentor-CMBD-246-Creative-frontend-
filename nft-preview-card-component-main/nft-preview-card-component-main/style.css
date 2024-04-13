@@ -1,0 +1,158 @@
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --VerydarkbluemainBG: hsl(217, 54%, 11%);
+    --VerydarkbluecardBG: hsl(216, 50%, 16%);
+    --Verydarkblueline: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+
+}
+*, 
+*::after, 
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    height: auto;
+    background-color: var(--VerydarkbluemainBG);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+
+}
+.card{
+    background-color: var(--VerydarkbluecardBG);
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    
+}
+.card-img{
+    width: 100%;
+    height: auto;
+    padding:30px;
+    flex-basis: 50%;
+
+}
+img{
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+.card-body{
+    padding: 0 35px ;
+    
+}
+.card-body h3{
+   
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--White);
+    margin-bottom: 20px;
+}
+.card-body p{
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--Softblue);
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    
+}
+hr{
+   border: 1px solid var(--Verydarkblueline);
+   margin-bottom: 15px;
+}
+.desc{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.card-footer{
+    display: flex;
+    margin: 20px 0;
+}
+.card-footer img.avater{
+    height:35px ;
+    width: 35px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+    
+
+}
+.card-footer p{
+    padding: 2px 15px;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    
+}
+.card-footer span{
+    color: var(--White);
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.ethereum-icon img{
+    position: absolute;
+}
+.ethereum-icon span {
+    color: var(--Cyan);
+    position: relative;
+    left: 20px;
+    top: -2px;
+    font-weight: 600;
+  
+}
+.clock-icon img{
+    position: absolute;
+    margin-left: -25px;
+    
+}
+.clock-icon span{
+    color: var(--Softblue);
+    position: relative;
+    top: -2px;
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+.attribution{
+    color: var(--White);
+    text-align: center;
+    position:absolute;
+    bottom: 1rem;
+}
+.attribution a{
+    color: var(--Cyan);
+}
+
+/* responsive */
+@media only screen and (max-width:600px) {
+    .card{
+        width: 90%;
+    }
+    .card-body h3, .card-footer span{
+        color: var(--Cyan);
+        cursor: pointer;
+    }
+    .attribution{
+        display: none;
+    }
+    
+}
+
