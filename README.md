@@ -43,6 +43,8 @@ Hello everyone. I am just trying to solve some CHALLENGES of  website [frontendm
 " width="200" height="130">
 <img src="./img folder/testimonials-grid-section-main.png" alt="testimonials-grid-section-main
 " width="200" height="130">
+<img src="./img folder/stats-preview-card-component-main" alt="stats-preview-card-component-main
+" width="200" height="130">
 
 
 </div>
